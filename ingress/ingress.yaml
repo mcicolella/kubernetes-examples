@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-microservice
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: k8s-emmecilab.duckdns.org
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: microservice
+            port:
+              number: 9000
