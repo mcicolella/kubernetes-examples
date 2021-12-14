@@ -11,3 +11,4 @@
 ## Videos (in Italian)
 
 * [Pillole di Kubernetes: KinD K8s in Docker](https://youtu.be/DEtGCraEE_o)
+* [Pillole di Kubernetes: creare un cluster su DigitalOcean](https://youtu.be/LmZv02J9DKk)
