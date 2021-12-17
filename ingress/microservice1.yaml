@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: microservice1
+  name: microservice1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: microservice1
+  template:
+    metadata:
+      labels:
+        app: microservice1
+    spec:
+      containers:
+      - image: ghcr.io/mcicolella/docker-microservice
+        name: docker-microservice
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: microservice1
+  name: microservice1
+spec:
+  ports:
+  - port: 9000
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: microservice1
+  type: ClusterIP

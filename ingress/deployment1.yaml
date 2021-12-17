@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: microservice
   name: microservice
@@ -10,15 +9,11 @@ spec:
   selector:
     matchLabels:
       app: microservice
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: microservice
     spec:
       containers:
       - image: ghcr.io/mcicolella/docker-microservice
         name: docker-microservice
-        resources: {}
-status: {}
