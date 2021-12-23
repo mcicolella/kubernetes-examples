@@ -13,3 +13,4 @@
 * [Pillole di Kubernetes: KinD K8s in Docker](https://youtu.be/DEtGCraEE_o)
 * [Pillole di Kubernetes: creare un cluster su DigitalOcean](https://youtu.be/LmZv02J9DKk)
 * [Spring Boot: deploy di una applicazione su Kubernetes](https://youtu.be/OJULEgBJDW8)
+* [Pillole di Kubernetes: accedere ad una applicazione con Ingress e un dominio](https://youtu.be/M66RV-kuB2E)
