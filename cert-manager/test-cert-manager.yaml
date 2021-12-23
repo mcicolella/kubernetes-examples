@@ -17,7 +17,7 @@ metadata:
   name: selfsigned-cert
   namespace: cert-manager-test
 spec:
-  commonName: k8s-emmecilab.duckdns.org # to be changed
+  commonName: k8s-emmecilab.duckdns.org #to be changed
   secretName: selfsigned-cert-tls
   issuerRef:
     name: test-selfsigned
