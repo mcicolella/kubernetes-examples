@@ -1,5 +1,7 @@
 # Kubernetes examples
 
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCwTjA-PulR8QrL6C2tiBrDg?label=SUBSCRIBE-EmmeCiLab&style=plastic)](https://www.youtube.com/c/emmecilab?sub_confirmation=1)
+
 ## Recommended books
 
 * [Docker: Sviluppare e rilasciare software tramite container](https://amzn.to/37rOaYZ)
