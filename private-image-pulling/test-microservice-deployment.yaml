@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-microservice
+  labels:
+    app: test-microservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-microservice
+  template:
+    metadata:
+      labels:
+        app: test-microservice
+    spec:
+      imagePullSecrets:
+      - name: docker-login-key
+      containers:
+      - name: test-microservice
+        image: ghcr.io/mcicolella/test-microservice:1.0.0
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 8080
+ 
