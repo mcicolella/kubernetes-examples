@@ -9,6 +9,7 @@
 ## Recommended books
 
 * [Docker: Sviluppare e rilasciare software tramite container](https://amzn.to/37rOaYZ)
+* [Kubernetes. Guida per gestire e orchestrare i container](https://amzn.to/42JC6ft)  
 * [Kubernetes in Action](https://amzn.to/31x5V9m)
 * [Kubernetes: Up and Running: Dive into the Future of Infrastructure](https://amzn.to/3DhQzCM)
 * [The Kubernetes Book](https://amzn.to/3lwlDZy)
@@ -20,3 +21,4 @@
 * [Pillole di Kubernetes: creare un cluster su DigitalOcean](https://youtu.be/LmZv02J9DKk)
 * [Spring Boot: deploy di una applicazione su Kubernetes](https://youtu.be/OJULEgBJDW8)
 * [Pillole di Kubernetes: accedere ad una applicazione con Ingress e un dominio](https://youtu.be/M66RV-kuB2E)
+* [GitOps per Kubernetes con ArgoCD](https://youtu.be/iWI6hejunXo)
